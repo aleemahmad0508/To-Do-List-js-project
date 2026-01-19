@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo Project</title>
+    <link rel="stylesheet" href="../css/To-do.css">
+</head>
+<body>
+    <div class="todo-project">
+        <h1 class="header">📝 To-Do List</h1>
+
+        <div class="input-container">
+            <input type="text" placeholder="Enter task..." class="js-input input">
+            <input type="date" class="js-date input">
+            <button onclick="addToDo()" class="add-to-do-button">Add</button>
+        </div>
+
+        <div class="js-todo-list todo-list"></div>
+    </div>
+
+    <script src="../js/To-Do.js"></script>
+</body>
+</html>
